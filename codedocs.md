@@ -61,4 +61,4 @@ permalink: /api
 {% endfor %}
 </ul>
 
-#### API data from the vscode Greyscript extension, available at https://github.com/WyattSL/greyscript.
+#### Данные API из расширения vscode Greyscript, доступные по адресу https://github.com/WyattSL/greyscript.
