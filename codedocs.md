@@ -1,9 +1,9 @@
 ---
 layout: default
-title: "Greyscript Documentation"
+title: "Документация Greyscript"
 permalink: /api
 ---
-# Greyscript Documentation
+# Документация Greyscript 
 {% assign encrypt = site.data.encryption %}
 <ul>
 {% for type in site.data.typelist %}
