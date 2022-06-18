@@ -2,7 +2,7 @@
     "Shell": {
         "host_computer": "Возвращает объект компьютера, связанный с оболочкой.",
         "start_terminal": "Запускает терминал из оболочки",
-        "build": "Скомпилируйте исходный код файла в указанном пути и сохраните исполняемый файл в целевом пути.\nИмя исполняемого файла совпадает с именем исходного файла без расширения.\n\nПредусмотренные пути должны быть абсолютными.\n\n[Пример]>get_shell.build(\"/home/user/myprogram.src\", \"/home/user/Desktop\")",
+        "build": "Скомпилируйте исходный код файла в указанном пути и сохраните исполняемый файл в целевом пути.\nИмя исполняемого файла совпадает с именем исходного файла без расширения.\n\nПредусмотренные пути должны быть абсолютными.\n\n[Пример]\n\nget_shell.build(\"/home/user/myprogram.src\", \"/home/user/Desktop\")",
         "connect_service": "Connect to a remote service. You can specify 'ftp' in the serviceType to request a FtpShell\n\nReturns a Shell or FtpShell if the connection has been established correctly or null on failure.",
         "launch": "Launches the command in the provided path.\n\nReturns null on success, or 0 on failure.",
         "ping": "Returns true if the remote address could be reached, false otherwise. Firewalls do not block ping requests.",
