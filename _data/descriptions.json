@@ -32,11 +32,11 @@
         "put": "Копирует файл с одного компьютера на другой через сеть.\n\nВозвращает 1 в случае успеха или строку (содержащую ошибку) в случае неудачи."
     },
     "Crypto": {
-        "aircrack": "Returns a string with the password generated from the file created by aireplay.",
-        "airmon": "Enables or disables the monitor mode of a network device. The option parameter can only be 'start' or 'stop'.",
-        "aireplay": "Used to inject frames on wireless interfaces.\n\n\n\nOnce the command with Control+C is stopped, it will save the captured information in a text file called file.cap in the path where the terminal is currently located.\n\nAlternatively, a maximum of captured acks can be specified for the command to stop automatically, saving the file.cap file as described above.\n\nIn the event that there is an error, a string will be returned with the message indicating the problem.",
-        "decipher": "Start the process of decrypting the password.",
-        "smtp_user_list": "SMTP services are mail services. When using this method with the IP of a mail server, due to a vulnerability in the service, it returns a list of the existing users on the computer where the SMTP service is working. \nIf these users also have an email account registered on the SMTP server, it will be indicated in the list.\n\nReturns a list object of all users on the machine, along with their email address or returns a string containing an error"
+        "aircrack": "Возвращает строку с паролем, сгенерированным из файла, который был создан aireplay.",
+        "airmon": "Включает или отключает режим мониторинга сетевого устройства. Параметр опции может быть только «start» или «stop».",
+        "aireplay": "Используется для ввода кадров в беспроводные интерфейсы.\n\n\n\nПосле остановки команды с помощью Control+C она сохранит захваченную информацию в текстовом файле с именем file.cap по пути, по которому в данный момент находится терминал.\n\nВ качестве альтернативы можно указать максимальное количество перехваченных подтверждений для автоматической остановки команды с сохранением файла file.cap, как описано выше.\n\nВ случае возникновения ошибки будет возвращена строка с сообщением, указывающим проблему.",
+        "decipher": "Запукает процесс расшифровки пароля.",
+        "smtp_user_list": "Службы SMTP — это почтовые службы. При использовании этого метода с IP почтового сервера из-за уязвимости в сервисе он возвращает список существующих пользователей на компьютере, где работает SMTP-сервис. \nЕсли у этих пользователей также есть учетная запись электронной почты, зарегистрированная на SMTP-сервере, она будет указана в списке.\n\nВозвращает объект списка всех пользователей на машине вместе с их адресом электронной почты или возвращает строку, содержащую ошибку"
     },
     "MetaLib": {
         "lib_name": "Returns the name of the library.",
