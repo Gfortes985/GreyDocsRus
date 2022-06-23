@@ -21,10 +21,10 @@
         "check_upgrade": "Проверяет, есть ли в репозитории более новая версия файла.\n\nВозвращает строку (содержащую ошибку) в случае ошибки или ничего в случае успеха."
     },
     "MetaMail": {
-        "delete": "Delete the mail that corresponds with mail_ID.\n\nReturns 1 if it was removed successfully or a string with the error message.",
-        "fetch": "Get all mails\n\nReturns a string type list of the received emails, with a content preview. In case of error, it returns a string.",
-        "read": "Read the full mail. The mail_ID argument can be obtained with fetch method.\n\nReturns either the content as a string or an error message.",
-        "send": "Send a new mail to the indicated recipient.\n\nReturns 1 if the mail has been sent correctly, otherwise returns a string with the error."
+        "delete": "Удаляет письма, соответствующие mail_ID.\n\nВозвращает 1, если письмо было успешно удалено, или строку с сообщением об ошибке.",
+        "fetch": "Получает все письма\n\nВозвращает строковый список полученных писем с предварительным просмотром содержимого. В случае ошибки возвращает строку.",
+        "read": "Читает всю почту. Аргумент mail_ID можно получить с помощью метода fetch.\n\nВозвращает либо содержимое в виде строки, либо сообщение об ошибке.",
+        "send": "Отправляет новое письмо указанному получателю.\n\nВозвращает 1, если письмо было отправлено правильно, в противном случае возвращает строку с ошибкой."
     },
     "FtpShell": {
         "host_computer": "Returns the computer associated with the FtpShell.",
