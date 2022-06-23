@@ -27,9 +27,9 @@
         "send": "Отправляет новое письмо указанному получателю.\n\nВозвращает 1, если письмо было отправлено правильно, в противном случае возвращает строку с ошибкой."
     },
     "FtpShell": {
-        "host_computer": "Returns the computer associated with the FtpShell.",
-        "start_terminal": "Launch an active terminal from the FtpShell.",
-        "put": "Copy a file from one computer to the other through the network.\n\nReturns 1 on success, or a string (containing an error) on failure."
+        "host_computer": "Возвращает объект компьютера, связанный с FtpShell.",
+        "start_terminal": "Запукает терминал из FtpShell.",
+        "put": "Копирует файл с одного компьютера на другой через сеть.\n\nВозвращает 1 в случае успеха или строку (содержащую ошибку) в случае неудачи."
     },
     "Crypto": {
         "aircrack": "Returns a string with the password generated from the file created by aireplay.",
