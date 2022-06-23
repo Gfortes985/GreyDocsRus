@@ -15,10 +15,10 @@
         "show": "Показывает все пакеты, доступные в репозиториях\nАдресс репозитория ДОЛЖЕН быть добавлен в файл /etc/apt/sources.txt.\n\nВозвращает строку со всеми пакетами в случае успеха или строку (содержащую ошибку) в случае неудачи.",
         "search": "Поиск конкретного пакета в любом из репозиториев, перечисленных в /etc/apt/sources.txt\n\nВ случае ошибки возвращает либо строку с информацией о пакете, либо строку (содержащую ошибку).",
         "update": "Обновляет список доступных пакетов после добавления нового репозитория в /etc/apt/sources.txt или если репозиторий обновил свою информацию в /server/conf/repod.conf\n\nВозвращает строку, содержащую все адреса репозитория с  префиксом 'Updated' в случае успеха или строку (содержащую ошибку) в случае неудачи.",
-        "add_repo": "Add the repository address in the /etc/apt/sources.txt file\n\nReturns empty string on success, or a string (containing an error) on failure.",
-        "del_repo": "Remove the repository address in the /etc/apt/sources.txt file.\n\nReturns empty string on success, or a string (containing an error) on failure.",
-        "install": "Install the program or library from a remote repository listed in /etc/apt/sources.txt.\nUnless a path is specified, the program installs in /lib if it is a library or in /bin otherwise\n\nReturns a string (containing an error) on failure or empty on success.",
-        "check_upgrade": "Check if there is a newer version of the file in the repository.\n\nReturns a string (containing an error) on failure or is empty when succesful."
+        "add_repo": "Добавляет адрес репозитория в файл /etc/apt/sources.txt\n\nВозвращает пустую строку в случае успеха или строку (содержащую ошибку) в случае неудачи.",
+        "del_repo": "Удалияет адрес репозитория из файла /etc/apt/sources.txt.\n\nВозвращает пустую строку в случае успеха или строку (содержащую ошибку) в случае неудачи.",
+        "install": "Установливает программу или библиотеку из удаленного репозитория, указанного в /etc/apt/sources.txt.\nЕсли не указан путь, программа устанавливается в /lib, если это библиотека,в противном случае в /bin \n\nВозвращает строку (содержащую ошибку) в случае неудачи или ничего в случае успеха.",
+        "check_upgrade": "Проверяет, есть ли в репозитории более новая версия файла.\n\nВозвращает строку (содержащую ошибку) в случае ошибки или ничего в случае успеха."
     },
     "MetaMail": {
         "delete": "Delete the mail that corresponds with mail_ID.\n\nReturns 1 if it was removed successfully or a string with the error message.",
