@@ -4,18 +4,18 @@ title: "Порты по умолчанию"
 permalink: /ref/ports
 ---
 ## Default Ports
-| Порт # | Сервис | Генерирует | Устанавливаемый |
+| Порт # | Сервис | Где генерируется | Устанавливаемый |
 | ------ | ------- | --------- | ----------- |
-| 21     | FTP     | Random    | Да |
-| 22     | SSH     | Random    | Да |
-| 25     | SMTP    | E-Mail sites only | Нет |
-| 80     | HTTP    | Random    | Да |
-| 141    | Bank (SQL) | Banks only | Нет |
-| 8080   | Router-HTTP | All routers | Да |
-| 1222   | Rshell  | Never     | Да |
-| 1542   | Repository | Hackshops | Да |
-| 3306   | Criminals (SQL) | Police Only | Нет |
-| 3307   | Students (SQL) | Schools Only | Нет |
-| 3308   | Employees (SQL) | Random | Нет |
-| 6667   | Chat | Never        | Да |
-| 37777  | CCTV | CCTV Cameras | Нет |
+| 21     | FTP     | случайно    | Да |
+| 22     | SSH     | случайно    | Да |
+| 25     | SMTP    | только сайты почты | Нет |
+| 80     | HTTP    | случайно    | Да |
+| 141    | Bank (SQL) | только банки | Нет |
+| 8080   | Router-HTTP | все маршрутизаторы | Да |
+| 1222   | Rshell  | создается игроками     | Да |
+| 1542   | Repository | Хакшопы | Да |
+| 3306   | Criminals (SQL) | только полиция | Нет |
+| 3307   | Students (SQL) | только школы | Нет |
+| 3308   | Employees (SQL) | случайно | Нет |
+| 6667   | Chat | создается игроками        | Да |
+| 37777  | CCTV | CCTV каамеры | Нет |
