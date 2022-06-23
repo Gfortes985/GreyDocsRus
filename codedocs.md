@@ -47,7 +47,7 @@ permalink: /api
 <li><details><summary>{{ func }}{{ p1 }}{{ argdata | slice: 0, x}}{{ p2 }} : {{ retdata | slice: 0, y}}</summary>
     {% endif %}
 {% if encrypt contains func %}
-> **Note:** This method cannot be used in encryption configuration.
+> **Note:** Этот метод нельзя использовать c включенным шифрованием.
 {% endif %}
 {{ desc }}
 {% for ex in examples %}
